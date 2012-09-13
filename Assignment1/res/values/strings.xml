@@ -3,16 +3,16 @@
 
     <string name="app_name">My First App</string>
     <string name="edit_message">Enter a message</string>
-    
-    //Buttons
+
+    <!-- Buttons -->
     <string name="button_see_picture">See picture</string>
-    <string name="button_log_something">Log something</string>
-    <string name="button_derp">Derp?</string>
-    
-    
+    <string name="button_log_something">Send logging data</string>
+    <string name="button_see_text">See text</string>
     <string name="menu_settings">Settings</string>
     <string name="title_activity_main">MainActivity</string>
     <string name="hello_world">Hello world!</string>
     <string name="title_activity_display_message">DisplayMessageActivity</string>
+    <string name="title_activity_send_data_to_logging">SendDataToLoggingActivity</string>
+    <string name="title_activity_download_image">DownloadImage</string>
 
 </resources>

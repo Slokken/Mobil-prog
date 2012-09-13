@@ -6,7 +6,6 @@
     android:orientation="horizontal" >
 
    
-
     <Button
         android:id="@+id/button1"
         android:layout_width="fill_parent"
@@ -14,7 +13,7 @@
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
         android:onClick="sendMessage"
-        android:text="@string/button_derp" />
+        android:text="@string/button_see_text" />
 
     <Button
         android:id="@+id/button2"
@@ -22,7 +21,7 @@
         android:layout_height="wrap_content"
         android:layout_alignParentLeft="true"
         android:layout_below="@+id/button1"
-        android:onClick="sendMessage"
+        android:onClick="seeDownloadedImage"
         android:text="@string/button_see_picture" />
 
     <Button
@@ -31,9 +30,8 @@
         android:layout_height="wrap_content"
         android:layout_alignParentLeft="true"
         android:layout_below="@+id/button2"
-        android:onClick="sendMessage"
         android:text="@string/button_log_something" />
-    
+    
      <EditText
          android:id="@+id/edit_message"
          android:layout_width="fill_parent"

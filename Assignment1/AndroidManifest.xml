@@ -27,6 +27,20 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.example.assignment1" />
         </activity>
+        <activity
+            android:name=".SendDataToLoggingActivity"
+            android:label="@string/title_activity_send_data_to_logging" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.assignment1" />
+        </activity>
+        <activity
+            android:name=".DownloadImage"
+            android:label="@string/title_activity_download_image" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.assignment1" />
+        </activity>
     </application>
 
 </manifest>
