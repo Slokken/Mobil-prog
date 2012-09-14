@@ -31,13 +31,22 @@
         android:layout_alignParentLeft="true"
         android:layout_below="@+id/button2"
         android:text="@string/button_log_something" />
+    
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/button3"
+        android:onClick="seeDownloadedText"
+        android:text="@string/button_download_text" />
     
      <EditText
          android:id="@+id/edit_message"
          android:layout_width="fill_parent"
          android:layout_height="wrap_content"
          android:layout_alignParentLeft="true"
-         android:layout_below="@id/button3"
+         android:layout_below="@id/button4"
          android:gravity="center_horizontal"
          android:hint="@string/edit_message" />
 

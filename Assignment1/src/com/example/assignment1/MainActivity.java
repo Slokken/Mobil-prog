@@ -36,13 +36,11 @@ public class MainActivity extends Activity {
     public void seeDownloadedImage(View view){
     	Intent intent = new Intent(this, DownloadImage.class);
     	startActivity(intent);
-//    	new Thread(new Runnable() {
-//            public void run() {
-//				 Intent intent = new Intent(this, DownloadImage.class);
-//				 startActivity(intent);
-//            }
-//        }).start();
-    	
+    }
+    
+    public void seeDownloadedText(View view){
+    	Intent intent = new Intent(this, DownloadText.class);
+    	startActivity(intent);
     }
 }
 
