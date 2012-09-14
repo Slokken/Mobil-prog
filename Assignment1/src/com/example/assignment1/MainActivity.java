@@ -42,5 +42,10 @@ public class MainActivity extends Activity {
     	Intent intent = new Intent(this, DownloadText.class);
     	startActivity(intent);
     }
+    
+    public void sendLoggingData(View view){
+    	Intent intent = new Intent(this, SendDataToLoggingActivity.class);
+    	startActivity(intent);
+    }
 }
 
