@@ -47,13 +47,14 @@ public final class R {
         public static final int button_see_picture=0x7f040002;
         public static final int button_see_text=0x7f040004;
         public static final int edit_message=0x7f040001;
-        public static final int hello_world=0x7f040008;
-        public static final int menu_settings=0x7f040006;
-        public static final int title_activity_display_message=0x7f040009;
-        public static final int title_activity_download_image=0x7f04000b;
-        public static final int title_activity_download_text=0x7f04000c;
-        public static final int title_activity_main=0x7f040007;
-        public static final int title_activity_send_data_to_logging=0x7f04000a;
+        public static final int hello_world=0x7f040009;
+        public static final int logging_text=0x7f040006;
+        public static final int menu_settings=0x7f040007;
+        public static final int title_activity_display_message=0x7f04000a;
+        public static final int title_activity_download_image=0x7f04000c;
+        public static final int title_activity_download_text=0x7f04000d;
+        public static final int title_activity_main=0x7f040008;
+        public static final int title_activity_send_data_to_logging=0x7f04000b;
     }
     public static final class style {
         public static final int AppTheme=0x7f050000;

@@ -45,6 +45,9 @@ public class MainActivity extends Activity {
     
     public void sendLoggingData(View view){
     	Intent intent = new Intent(this, SendDataToLoggingActivity.class);
+    	EditText editText = (EditText) findViewById(R.id.edit_message);
+    	String data = editText.getText().toString();
+    	intent.putExtra(EXTRA_MESSAGE, data);
     	startActivity(intent);
     }
 }

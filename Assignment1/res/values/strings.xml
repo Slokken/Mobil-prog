@@ -9,6 +9,8 @@
     <string name="button_log_something">Send logging data</string>
     <string name="button_see_text">Send text to other activity</string>
     <string name="button_download_text">Download Text</string>
+    <string name="logging_text">Data posted to user "Simen"!</string>
+    
     <string name="menu_settings">Settings</string>
     <string name="title_activity_main">MainActivity</string>
     <string name="hello_world">Hello world!</string>

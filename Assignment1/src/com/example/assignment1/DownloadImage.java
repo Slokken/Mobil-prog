@@ -31,10 +31,7 @@ public class DownloadImage extends Activity {
 	            }
         }).start();
         
-//                "http://www.ansatt.hig.no/simonm/images/VikingMe150.png");
-//            //Then display the image to a view
-//            ImageView img = (ImageView) findViewById(R.id.imageView1);
-//            img.setImageBitmap(bitmap);
+
     }
     
     /**
@@ -100,22 +97,5 @@ public class DownloadImage extends Activity {
     	       // }
     	        return in;     
         }
-//
-//    @Override
-//    public boolean onCreateOptionsMenu(Menu menu) {
-//        getMenuInflater().inflate(R.menu.activity_download_image, menu);
-//        return true;
-//    }
-//
-//    
-////    @Override
-////    public boolean onOptionsItemSelected(MenuItem item) {
-////        switch (item.getItemId()) {
-////            case android.R.id.home:
-////                NavUtils.navigateUpFromSameTask(this);
-////                return true;
-////        }
-////        return super.onOptionsItemSelected(item);
-////    }
-////
+
 }
