@@ -21,7 +21,7 @@ public class DownloadImage extends Activity {
     
         new Thread(new Runnable() {
             public void run() {
-	            final Bitmap bitmap = DownloadImage("http://www.ansatt.hig.no/simonm/images/VikingMe150.png");
+	            final Bitmap bitmap = DownloadImage("http://www.hig.no/var/ezwebin_site/storage/images/ansatte/avdeling_for_informatikk_og_medieteknikk/simon_j_r_mccallum/270018-7-nor-NO/simon_j_r_mccallum.jpg");
 	            final ImageView img = (ImageView) findViewById(R.id.imageView1);
 	            img.post(new Runnable(){
 					public void run() {
